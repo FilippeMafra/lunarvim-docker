@@ -23,13 +23,8 @@ RUN su -c "bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/ma
 COPY .zshrc .zshrc
 COPY lvim .config/lvim
 
-# copy these hidden folders during development for faster
-# loading of lazy.nvim, mason, and treesitter
-COPY .cache /root/.cache
-COPY .local /root/.local
-
 FROM base
 SHELL ["/bin/zsh", "-c"]
-WORKDIR /root/projects/pets
+WORKDIR /root/projects
 COPY lvim /root/.config/lvim
 CMD ["/bin/zsh"]
