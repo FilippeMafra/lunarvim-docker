@@ -10,7 +10,7 @@ plus a Dockerfile to run the configuration in a container.
 To get started, clone the repository to your local machine:
 
 ```
-git clone https://github.com/IfCodingWereNatural/minimal-nvim.git
+git clone git@github.com:FilippeMafra/lunarvim-docker.git
 ```
 
 ### Prerequisites
@@ -22,10 +22,10 @@ You'll need to have Docker installed on your local machine to build and run the 
 Use `./build.sh` to create the Docker image or just run the following command:
 
 ```bash
-~$ docker build -t minimal-nvim .
+~$ docker build -t lunarvim-docker .
 ```
 
-This script will build the container and tag it with the name `minimal-nvim`.
+This script will build the container and tag it with the name `lunarvim-docker`.
 
 ### Running the Container
 
