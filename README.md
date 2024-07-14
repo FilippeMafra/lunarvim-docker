@@ -41,6 +41,6 @@ container, will also change the local files.
 
 ## LunarVim Configuration
 
-The configuration includes the following plugins (and perhaps more, I dunno, I had chatgpt generate this readme):
+The configuration includes the following plugins (and perhaps more):
 
 - WIP
